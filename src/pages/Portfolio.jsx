@@ -69,9 +69,9 @@ const Portfolio = () => {
   return (
     <>
       <SEO 
-        title="Our Work | Plumbing Projects Gallery Amanzimtoti"
-        description="View our completed plumbing projects in Amanzimtoti and South Coast including bathroom renovations, geyser installations, pipe replacements, and JoJo tank installations."
-        keywords="plumbing projects Amanzimtoti, bathroom renovation gallery, geyser installation photos, plumbing portfolio South Coast"
+        title="Plumbing Projects Amanzimtoti | Bathroom, Geyser & Pipe Gallery"
+        description="View our completed plumbing projects in Amanzimtoti and South Coast. Bathroom renovations, geyser installations, pipe replacements, JoJo tank installations. Same-day service ✅ No call-out fee."
+        keywords="plumbing projects Amanzimtoti, bathroom renovation gallery, geyser installation photos, plumbing portfolio South Coast, affordable plumber near me"
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 

@@ -22,14 +22,14 @@ const ServicePage = () => {
   return (
     <>
       <SEO 
-        title={`${service.title} Amanzimtoti | Professional Plumbing Services`}
-        description={`Professional ${service.title.toLowerCase()} services in Amanzimtoti and surrounding areas. ${service.description}. Call or WhatsApp for a free quote.`}
-        keywords={`${service.title.toLowerCase()} Amanzimtoti, ${service.title.toLowerCase()} Durban South, ${service.title.toLowerCase()} plumber`}
+        title={`${service.title} Amanzimtoti | Affordable Plumbing Services`}
+        description={`Affordable ${service.title.toLowerCase()} services in Amanzimtoti and surrounding areas. ✅ Same-day service ✅ No call-out fee. ${service.description}. Call or WhatsApp for a free quote.`}
+        keywords={`${service.title.toLowerCase()} Amanzimtoti, affordable ${service.title.toLowerCase()}, emergency ${service.title.toLowerCase()}, ${service.title.toLowerCase()} near me`}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-       <ServiceSchema service={service} location="Amanzimtoti" />
+      <ServiceSchema service={service} location="Amanzimtoti" />
 
-      <section className="bg-gradient-to-r from-teal-600 to-teal-500 text-white py-16">
+      <section className="bg-gradient-to-r from-teal-700 to-teal-500 text-white py-16">
         <div className="container-custom text-center">
           <div className="text-6xl mb-4">{service.icon}</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{service.title} in Amanzimtoti</h1>
@@ -56,12 +56,12 @@ const ServicePage = () => {
 
             <div className="bg-teal-50 rounded-2xl p-6 h-fit sticky top-24">
               <h3 className="text-xl font-bold text-teal-600 mb-4">Get a Free Quote</h3>
-              <p className="text-gray-600 mb-4">Call or WhatsApp us for immediate assistance</p>
+              <p className="text-gray-600 mb-4">✅ No call-out fee • ✅ Same-day service</p>
               <div className="space-y-3">
                 <a href="tel:0765969429" className="flex items-center justify-center gap-2 bg-teal-500 text-white py-3 rounded-full font-semibold hover:bg-teal-600 transition w-full">
                   <FaPhone /> Call 076 596 9429
                 </a>
-                <a href="https://wa.me/27765969429?text=Hello%20Makhathini%20Plumbers,%20I%20need%20a%20quote%20for%20${service.title.toLowerCase()}" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-500 text-white py-3 rounded-full font-semibold hover:bg-green-600 transition w-full">
+                <a href={`https://wa.me/27765969429?text=Hello%20Makhathini%20Plumbers,%20I%20need%20a%20quote%20for%20${service.title.toLowerCase()}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-500 text-white py-3 rounded-full font-semibold hover:bg-green-600 transition w-full">
                   <FaWhatsapp /> WhatsApp Us
                 </a>
               </div>

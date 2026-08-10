@@ -4,6 +4,10 @@ export const faqs = [
     answer: 'We offer 24/7 emergency services with a response time of under 1 hour in Amanzimtoti and surrounding areas.'
   },
   {
+    question: 'Do you charge a call-out fee?',
+    answer: 'No, we do not charge a call-out fee for any plumbing service. You only pay for the work that is done.'
+  },
+  {
     question: 'Are you registered and insured?',
     answer: 'Yes, Makhathini Plumbers is PIRB registered, COC certified, and fully insured. We are also a BBBEE Level 1 contributor.'
   },
@@ -18,9 +22,5 @@ export const faqs = [
   {
     question: 'Do you offer after-hours service?',
     answer: 'Yes, we are available 24 hours a day, 7 days a week for emergency plumbing services.'
-  },
-  {
-    question: 'What payment methods do you accept?',
-    answer: 'We accept cash, EFT, and all major credit cards. Payment is required upon completion of work.'
   }
 ]

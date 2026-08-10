@@ -13,11 +13,11 @@ const Services = () => {
     <>
       <SEO 
         title="Plumbing Services Amanzimtoti | Geyser, Drains & More"
-        description="Professional plumbing services in Amanzimtoti including geyser installation & repair, blocked drains, burst pipes, leak detection, bathroom renovations, and solar geysers."
-        keywords="plumbing services Amanzimtoti, geyser repair, blocked drains, burst pipe plumber"
+        description="Affordable plumbing services in Amanzimtoti: geyser installation & repair, blocked drains, burst pipes, leak detection, bathroom renovations, solar geysers. Same-day service ✅ No call-out fee. Call 076 596 9429."
+        keywords="plumbing services Amanzimtoti, geyser repair, blocked drains, burst pipe plumber, affordable plumber near me, 24 hour plumber"
       />
 
-      <section className="bg-gradient-to-r from-teal-600 to-teal-500 text-white py-16">
+      <section className="bg-gradient-to-r from-teal-700 to-teal-500 text-white py-16">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Professional Services</h1>
           <p className="text-lg opacity-90 max-w-2xl mx-auto">Comprehensive plumbing solutions for residential and commercial properties</p>
